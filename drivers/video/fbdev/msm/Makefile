@@ -17,3 +17,5 @@ obj-y += mddi_client_dummy.o
 obj-y += mddi_client_toshiba.o
 obj-y += mddi_client_nt35399.o
 endif
+
+obj-$(CONFIG_FB_MSM_MDSS_KCAL_CTRL) += mdss_mdp_kcal_ctrl.o
